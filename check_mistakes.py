@@ -1,7 +1,7 @@
 import os
 from tqdm import tqdm
 
-path_imgs = '31.07.24'
+path_imgs = 'raw/'+'08.11.2024'
 path_check = 'need_check'
 imgs = tqdm(os.listdir(path_imgs))
 last_name = ''
